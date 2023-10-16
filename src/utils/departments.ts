@@ -1,0 +1,1 @@
+export const departments = ["RECURSOS HUMANOS", "TECNOLOGIA", "MARKETING", "VENDAS", "OPERAÇÕES"]
