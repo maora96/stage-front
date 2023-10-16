@@ -1,4 +1,4 @@
-import { Header } from "../../components/Header";
+// import { Header } from "../../components/Header";
 import { useNavigate, useParams } from "react-router-dom";
 import { useGetManyByDepartment } from "../../hooks/departments";
 import { Process } from "../../types";
@@ -13,7 +13,7 @@ export function DepartmentPage() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section className={styles["container"]}>
         {data && (
           <div className={styles["hero"]}>

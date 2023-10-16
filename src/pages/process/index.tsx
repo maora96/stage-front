@@ -1,4 +1,4 @@
-import { Header } from "../../components/Header";
+// import { Header } from "../../components/Header";
 import { useNavigate, useParams } from "react-router-dom";
 import { useGetProcess } from "../../hooks/processes";
 import { Process } from "../../types";
@@ -33,7 +33,7 @@ export function ProcessPage() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className={styles["container"]}>
         {data && (
           <div className={styles["hero"]}>

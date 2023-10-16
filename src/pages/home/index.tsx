@@ -1,4 +1,4 @@
-import { Header } from "../../components/Header";
+// import { Header } from "../../components/Header";
 import { useGetMany } from "../../hooks/departments";
 import { Department } from "../../types";
 import styles from "./styles.module.scss";
@@ -9,7 +9,7 @@ export function Home() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section className={styles["container"]}>
         {data &&
           data.map((department: Department) => (
