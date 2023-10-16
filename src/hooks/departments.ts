@@ -10,7 +10,6 @@ export const useGetMany = () => {
 };
 
 export const useGetManyByDepartment = (id: string) => {
-    console.log('hi')
     return useQuery("getManyByDepartment", async () => getManyByDepartment(id), {
       staleTime: 5000,
       refetchOnWindowFocus: false,

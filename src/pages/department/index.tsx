@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
-import { Header } from "../../components/header";
+import { Header } from "../../components/Header";
 import { useNavigate, useParams } from "react-router-dom";
-import { useGetMany, useGetManyByDepartment } from "../../hooks/departments";
+import { useGetManyByDepartment } from "../../hooks/departments";
 import { Process } from "../../types";
 
 export function DepartmentPage() {

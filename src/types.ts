@@ -15,3 +15,9 @@ export type Process = {
     createdAt: Date;
     processes?: Process[]
 }
+
+export type Request = {
+    name: string;
+    description: string;
+    cover: string | null;
+}

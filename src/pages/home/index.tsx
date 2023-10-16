@@ -1,4 +1,4 @@
-import { Header } from "../../components/header";
+import { Header } from "../../components/Header";
 import { useGetMany } from "../../hooks/departments";
 import { Department } from "../../types";
 import { useNavigate } from "react-router-dom";
