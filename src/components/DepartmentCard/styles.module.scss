@@ -1,0 +1,31 @@
+.card {
+  width: 30%;
+  height: 200px;
+
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(72, 71, 74, 0.42);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(72, 71, 74, 0.42);
+  box-shadow: 0px 2px 5px 0px rgba(72, 71, 74, 0.42);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #7521ee;
+    transition: color 0.5s ease-out;
+  }
+
+  transition: background-color 0.5s ease-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #7521ee;
+
+  h2 {
+    color: white;
+  }
+}

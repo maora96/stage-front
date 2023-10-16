@@ -1,0 +1,32 @@
+.container {
+  h2 {
+    color: #7521ee;
+    margin-bottom: 20px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid #7521ee;
+    padding: 10px;
+  }
+}
+
+.textarea {
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #7521ee;
+  padding: 10px;
+}
+
+.submit {
+  color: #7521ee;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}

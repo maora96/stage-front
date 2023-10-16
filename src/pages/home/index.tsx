@@ -1,17 +1,21 @@
 import { Header } from "../../components/Header";
 import { useGetMany } from "../../hooks/departments";
 import { Department } from "../../types";
-import { useNavigate } from "react-router-dom";
+import styles from "./styles.module.scss";
+import { DepartmentCard } from "../../components/DepartmentCard";
 
 export function Home() {
-    const navigate = useNavigate()
+  const { data } = useGetMany();
 
-    const { data } = useGetMany();
-
-    return <>
-       <Header/>
-       <section>
-        {data && data.map((deparment: Department) => <div onClick={() => navigate(`/${deparment.id}`)}><h2>{deparment.name}</h2></div>)}
-       </section>
+  return (
+    <>
+      <Header />
+      <section className={styles["container"]}>
+        {data &&
+          data.map((department: Department) => (
+            <DepartmentCard department={department} />
+          ))}
+      </section>
     </>
+  );
 }

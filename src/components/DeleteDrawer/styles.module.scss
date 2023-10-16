@@ -1,0 +1,28 @@
+.container {
+  h2 {
+    color: #7521ee;
+    margin-bottom: 20px;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.submit {
+  color: #7521ee;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.submit-no {
+  background: #7521ee;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
