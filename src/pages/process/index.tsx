@@ -53,7 +53,6 @@ export function ProcessPage() {
         <div className={styles["processes"]}>
           {data &&
             data.processes.map((process: Process) => {
-              console.log(process.name);
               return (
                 <div
                   onClick={() => navigate(`/process/${process.id}`)}
